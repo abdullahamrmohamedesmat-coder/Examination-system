@@ -6,6 +6,7 @@ namespace Examination_system
 {
     public abstract class Question
     {
+        //Question
         protected Question(Answers[] answers, Answers rightAnswer, string? headerOfq, string? bodyOfq, int mark)
         {
             Answers = answers;
