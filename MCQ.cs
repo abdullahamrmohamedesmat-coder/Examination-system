@@ -6,6 +6,7 @@ namespace Examination_system
 {
     public class MCQ : Question
     {
+        //MCQ 
         
         public List<Answers> choices = new List<Answers>();
        public int correctAnswerID;
