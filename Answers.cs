@@ -6,6 +6,7 @@ namespace Examination_system
 {
     public class Answers
     {
+        //MCQ
         public Answers(int answerID, string answerText)
         {
             AnswerID = answerID;
