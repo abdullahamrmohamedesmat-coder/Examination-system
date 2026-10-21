@@ -6,6 +6,7 @@ namespace Examination_system
 {
     public abstract class Exam
     {
+        //Exam
         public int Time { get; set; }
         public int NumbersOfq {  get; set; }
 
