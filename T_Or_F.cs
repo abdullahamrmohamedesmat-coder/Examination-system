@@ -7,6 +7,7 @@ namespace Examination_system
 {
     public class T_Or_F : Question
     {
+        //T_Or_F
         public T_Or_F( Answers rightAnswer, string? headerOfq, string? bodyOfq, int mark) : 
             base(new Answers[] { new Answers(1,"True"),new Answers(2,"False")}, rightAnswer, headerOfq, bodyOfq, mark)
         {
